@@ -1,0 +1,168 @@
+@media only screen and (max-width: 500px)
+{
+
+
+
+
+	#navbar .container .items .item-2
+	{
+		display: none;
+	}
+
+
+
+
+
+	#navbar .container .items .item-3
+	{
+		display: none;
+	}
+
+
+
+
+	#navbar .container .items .item-4
+	{
+		display: block;
+	}
+
+
+
+
+
+	#home .container .content
+	{
+		background-image: none;
+		text-align: center;
+		height: 900px;
+	}
+	#home .container .content h3
+	{
+		font-size: 1.5rem;
+	}
+	#home .container .content h1
+	{
+		font-size: 2.5em;
+	}
+
+
+
+	#about .container .items
+	{
+		display: block;
+	}
+	#about .container .items .item-2 .items-2
+	{
+		display: block;
+	}
+	#about .container .items .item-2 .items-2 .item-22,
+	#about .container .items .item-2 .items-2 .item-21
+	{
+		padding: 0;
+	}
+
+
+
+
+	#work .container .flex-1
+	{
+		display: block;
+	}
+	#work .container .flex-1 .item-2,
+	#work .container .flex-1 .item-1
+	{
+		position: static;
+	}
+	#work .container .flex-1 .item-2
+	{
+		text-align: right;
+		margin: 50px 0;
+	}
+	#work .container .flex-1 .item-1 h2
+	{
+		font-size: 25px;
+	}
+	#work .container .flex-1 .item-2 button
+	{
+		position: static;
+	}
+	#work .container .flex-2
+	{
+		display: block;
+	}
+	#work .container .flex-2 .item-1 img,
+	#work .container .flex-2 .item-2 img
+	{
+		width: 100%;
+		height: auto;
+	}
+	#work .container .flex-3
+	{
+		display: block;
+	}
+	#work .container .flex-3 .item-1 img,
+	#work .container .flex-3 .item-2 img
+	{
+		width: 100%;
+		height: auto;
+	}
+	#work .container .work-content
+	{
+		padding: 1rem;
+	}
+	#work .container .work-content h2
+	{
+		font-size: 23px;
+	}
+	#work .container .flex-4
+	{
+		flex-wrap: wrap;
+	}
+	#work .container .flex-4 .items
+	{
+		min-width: 250px;
+		padding: 1rem;
+		margin: 1rem 0;
+	}
+
+
+
+
+
+
+	#testimonials .container .dot-container
+	{
+		display: none;
+	}
+	#testimonials .container .slide-flex-1
+	{
+		flex-wrap: wrap;
+	}
+	#testimonials .container .slide-flex-1 .my-slides
+	{
+		min-width: 100%;
+		padding: 2rem 0;
+	}
+
+
+
+
+
+
+
+
+	#footer .container .flex-1
+	{
+		display: block;
+		text-align: center;
+	}
+	#footer .container .flex-1 .item-1 h1
+	{
+		max-width: 500px;
+		font-size: 25px;
+	}
+	#footer .container .flex-1 .item-2
+	{
+		text-align: center;
+	}
+}

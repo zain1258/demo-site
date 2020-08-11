@@ -1,0 +1,108 @@
+@media only screen and (max-width: 768px) and (min-width: 501px)
+{
+	#navbar .container .items .item-1
+	{
+		order: 2;
+		text-align: center;
+	}
+
+
+
+
+
+
+	#navbar .container .items .item-2
+	{
+		display: none;
+	}
+
+
+
+
+
+
+	#navbar .container .items .item-3
+	{
+		order: 3;
+	}
+
+
+
+	#navbar .container .items .item-4
+	{
+		display: block;
+		text-align: left;
+	}
+	#navbar .container .items .item-4 .barbtn-content
+	{
+		left: 0px;
+		width: 300%;
+	}
+
+
+
+
+
+	#home .container .content
+	{
+		background-image: none;
+		text-align: center;
+	}
+
+
+
+
+	#about .container .items
+	{
+		display: block;
+	}
+	#about .container .items .item-2 .items-2 .item-22,
+	#about .container .items .item-2 .items-2 .item-21
+	{
+		flex: 1;
+	}
+
+
+
+	#work .container .flex-1
+	{
+		display: block;
+	}
+	#work .container .flex-1 .item-2,
+	#work .container .flex-1 .item-1
+	{
+		position: static;
+	}
+	#work .container .flex-1 .item-2
+	{
+		text-align: right;
+		margin: 50px 0;
+	}
+	#work .container .flex-1 .item-2 button
+	{
+		position: static;
+	}
+	#work .container .flex-4
+	{
+		flex-wrap: wrap;
+	}
+	#work .container .flex-4 .items
+	{
+		min-width: 300px;
+		margin: 20px 0;
+	}
+
+
+
+
+
+	#footer .container .flex-1
+	{
+		display: block;
+		text-align: center;
+	}
+	#footer .container .flex-1 .item-2
+	{
+		text-align: center;
+	}
+}
